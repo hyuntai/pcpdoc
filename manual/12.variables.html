@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Variables | PCP</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    
+    <meta name="description" content="Powered by Koscom">
+    
+    <link rel="preload" href="/pcpdoc/assets/css/0.styles.8de474a2.css" as="style"><link rel="preload" href="/pcpdoc/assets/js/app.6ed8750a.js" as="script"><link rel="preload" href="/pcpdoc/assets/js/2.6460c2a9.js" as="script"><link rel="preload" href="/pcpdoc/assets/js/20.ef264b58.js" as="script"><link rel="prefetch" href="/pcpdoc/assets/js/10.971d3fd4.js"><link rel="prefetch" href="/pcpdoc/assets/js/11.278ea451.js"><link rel="prefetch" href="/pcpdoc/assets/js/12.524e7c7d.js"><link rel="prefetch" href="/pcpdoc/assets/js/13.fdaeaa7e.js"><link rel="prefetch" href="/pcpdoc/assets/js/14.bfb72e4f.js"><link rel="prefetch" href="/pcpdoc/assets/js/15.4c9258e4.js"><link rel="prefetch" href="/pcpdoc/assets/js/16.8f4805f2.js"><link rel="prefetch" href="/pcpdoc/assets/js/17.c4762d5f.js"><link rel="prefetch" href="/pcpdoc/assets/js/18.ab16f57e.js"><link rel="prefetch" href="/pcpdoc/assets/js/19.e4b65b2a.js"><link rel="prefetch" href="/pcpdoc/assets/js/21.092f8b4a.js"><link rel="prefetch" href="/pcpdoc/assets/js/22.8ba237db.js"><link rel="prefetch" href="/pcpdoc/assets/js/23.d7ad00a8.js"><link rel="prefetch" href="/pcpdoc/assets/js/24.06af5f0c.js"><link rel="prefetch" href="/pcpdoc/assets/js/25.b9c58480.js"><link rel="prefetch" href="/pcpdoc/assets/js/26.59fda1c3.js"><link rel="prefetch" href="/pcpdoc/assets/js/27.90844b17.js"><link rel="prefetch" href="/pcpdoc/assets/js/28.5c6544c2.js"><link rel="prefetch" href="/pcpdoc/assets/js/29.d5a4544d.js"><link rel="prefetch" href="/pcpdoc/assets/js/3.cb0be02c.js"><link rel="prefetch" href="/pcpdoc/assets/js/30.5889065b.js"><link rel="prefetch" href="/pcpdoc/assets/js/31.f08751b7.js"><link rel="prefetch" href="/pcpdoc/assets/js/32.6a7026c7.js"><link rel="prefetch" href="/pcpdoc/assets/js/33.f10d8345.js"><link rel="prefetch" href="/pcpdoc/assets/js/34.4e78195c.js"><link rel="prefetch" href="/pcpdoc/assets/js/35.90dedf33.js"><link rel="prefetch" href="/pcpdoc/assets/js/36.b4747522.js"><link rel="prefetch" href="/pcpdoc/assets/js/37.25e9edaf.js"><link rel="prefetch" href="/pcpdoc/assets/js/38.26d5b095.js"><link rel="prefetch" href="/pcpdoc/assets/js/39.478162b4.js"><link rel="prefetch" href="/pcpdoc/assets/js/4.72f7d042.js"><link rel="prefetch" href="/pcpdoc/assets/js/40.64606493.js"><link rel="prefetch" href="/pcpdoc/assets/js/41.ce92f585.js"><link rel="prefetch" href="/pcpdoc/assets/js/42.d1015186.js"><link rel="prefetch" href="/pcpdoc/assets/js/43.bbdd4960.js"><link rel="prefetch" href="/pcpdoc/assets/js/44.91ca8493.js"><link rel="prefetch" href="/pcpdoc/assets/js/5.6a149e2f.js"><link rel="prefetch" href="/pcpdoc/assets/js/6.4f5e01a6.js"><link rel="prefetch" href="/pcpdoc/assets/js/7.640ed95d.js"><link rel="prefetch" href="/pcpdoc/assets/js/8.4d807afb.js"><link rel="prefetch" href="/pcpdoc/assets/js/9.716c796d.js">
+    <link rel="stylesheet" href="/pcpdoc/assets/css/0.styles.8de474a2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/pcpdoc/" class="home-link router-link-active"><!----> <span class="site-name">PCP</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pcpdoc/feature/00.feature.html" class="nav-link">
+  Feature
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="User Guide" class="dropdown-title"><span class="title">User Guide</span> <span class="arrow down"></span></button> <button type="button" aria-label="User Guide" class="mobile-dropdown-title"><span class="title">User Guide</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          시작하기
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/01.overview.html" class="nav-link">
+  Overview
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/02.installation-guide.html" class="nav-link">
+  클라이언트 설치
+</a></li></ul></li><li class="dropdown-item"><h4>
+          PCP 일반
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/03.basic-views.html" class="nav-link">
+  기본 화면
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/04.auth-manage.html" class="nav-link">
+  사용자 및 권한관리
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/05.job-properties.html" class="nav-link">
+  잡 속성
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Tools
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/06.master-jobs.html" class="nav-link">
+  잡 등록 및 관리
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/07.export-import.html" class="nav-link">
+  Export And Import
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/08.group-filter.html" class="nav-link">
+  Group Order And Filter
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/09.conditions.html" class="nav-link">
+  Conditions
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/10.calendar.html" class="nav-link">
+  Calendar
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/11.node-manage.html" class="nav-link">
+  노드 관리
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/12.variables.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Variables
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/13.remote-data-sync.html" class="nav-link">
+  원격 데이터 동기화
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/14.find-and-update.html" class="nav-link">
+  Find And Update
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Monitor
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/15.server-monitor.html" class="nav-link">
+  서버 모니터링
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/16.process-monitor.html" class="nav-link">
+  프로세스 모니터링
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/17.audit-log.html" class="nav-link">
+  Audit Log
+</a></li></ul></li><li class="dropdown-item"><!----> <a href="/pcpdoc/manual/18.views.html" class="nav-link">
+  Views
+</a></li><li class="dropdown-item"><h4>
+          System
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/19.about.html" class="nav-link">
+  About
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/20.check-update.html" class="nav-link">
+  Check for update
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/21.preferences.html" class="nav-link">
+  Preferences
+</a></li></ul></li><li class="dropdown-item"><h4>
+          ETC
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/22.user-api.html" class="nav-link">
+  API 가이드
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/23.utilities.html" class="nav-link">
+  Utilities
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/24.rules.html" class="nav-link">
+  규칙
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Practice" class="dropdown-title"><span class="title">Practice</span> <span class="arrow down"></span></button> <button type="button" aria-label="Practice" class="mobile-dropdown-title"><span class="title">Practice</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/vuepress.html" class="nav-link">
+  vuepress
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/sample.html" class="nav-link">
+  vuepress.sample
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/psql.html" class="nav-link">
+  psql
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/install.html" class="nav-link">
+  install
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/install-db.html" class="nav-link">
+  install-db
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/bash-programming.html" class="nav-link">
+  bash-programming
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/system.html" class="nav-link">
+  system
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/pcpdoc/feature/00.feature.html" class="nav-link">
+  Feature
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="User Guide" class="dropdown-title"><span class="title">User Guide</span> <span class="arrow down"></span></button> <button type="button" aria-label="User Guide" class="mobile-dropdown-title"><span class="title">User Guide</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          시작하기
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/01.overview.html" class="nav-link">
+  Overview
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/02.installation-guide.html" class="nav-link">
+  클라이언트 설치
+</a></li></ul></li><li class="dropdown-item"><h4>
+          PCP 일반
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/03.basic-views.html" class="nav-link">
+  기본 화면
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/04.auth-manage.html" class="nav-link">
+  사용자 및 권한관리
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/05.job-properties.html" class="nav-link">
+  잡 속성
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Tools
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/06.master-jobs.html" class="nav-link">
+  잡 등록 및 관리
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/07.export-import.html" class="nav-link">
+  Export And Import
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/08.group-filter.html" class="nav-link">
+  Group Order And Filter
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/09.conditions.html" class="nav-link">
+  Conditions
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/10.calendar.html" class="nav-link">
+  Calendar
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/11.node-manage.html" class="nav-link">
+  노드 관리
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/12.variables.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Variables
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/13.remote-data-sync.html" class="nav-link">
+  원격 데이터 동기화
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/14.find-and-update.html" class="nav-link">
+  Find And Update
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Monitor
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/15.server-monitor.html" class="nav-link">
+  서버 모니터링
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/16.process-monitor.html" class="nav-link">
+  프로세스 모니터링
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/17.audit-log.html" class="nav-link">
+  Audit Log
+</a></li></ul></li><li class="dropdown-item"><!----> <a href="/pcpdoc/manual/18.views.html" class="nav-link">
+  Views
+</a></li><li class="dropdown-item"><h4>
+          System
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/19.about.html" class="nav-link">
+  About
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/20.check-update.html" class="nav-link">
+  Check for update
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/21.preferences.html" class="nav-link">
+  Preferences
+</a></li></ul></li><li class="dropdown-item"><h4>
+          ETC
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pcpdoc/manual/22.user-api.html" class="nav-link">
+  API 가이드
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/23.utilities.html" class="nav-link">
+  Utilities
+</a></li><li class="dropdown-subitem"><a href="/pcpdoc/manual/24.rules.html" class="nav-link">
+  규칙
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Practice" class="dropdown-title"><span class="title">Practice</span> <span class="arrow down"></span></button> <button type="button" aria-label="Practice" class="mobile-dropdown-title"><span class="title">Practice</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/vuepress.html" class="nav-link">
+  vuepress
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/sample.html" class="nav-link">
+  vuepress.sample
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/psql.html" class="nav-link">
+  psql
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/install.html" class="nav-link">
+  install
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/install-db.html" class="nav-link">
+  install-db
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/bash-programming.html" class="nav-link">
+  bash-programming
+</a></li><li class="dropdown-item"><!----> <a href="/pcpdoc/practice/system.html" class="nav-link">
+  system
+</a></li></ul></div></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="variables"><a href="#variables" class="header-anchor">#</a> Variables</h2> <br> <img src="/pcpdoc/menu-variables.png"> <ul><li>사용 가능한 변수 목록을 조회 하거나, 사용자 변수를 추가할 수 있다.</li></ul> <img src="/pcpdoc/variables-user.png"> <ul><li>Job 속성 중에 일부 항목은 변수로 정의 할 수 있다.(ex: pcpcond -ADD A-JOB-OK %ODAT%)</li> <li>변수는 Runtime(Argument, PostProc) 또는 Order Time(Schedule&gt;From,To)에 실제 값으로 치환된다.</li> <li>변수 치환 기능을 사용할 수 있는 항목
+<ul><li><code>General</code>-&gt;<code>Argument</code></li> <li><code>Advanced-</code>&gt;<code>Post Proc</code></li> <li><code>Advanced</code>-&gt;<code>Variables</code></li></ul></li> <li>변수의 유형
+<ul><li><strong>시스템 변수</strong>는 서버에 예약된 변수이며, Job Name(JOBNM), Oder Date(ODAT) 등 실행 시점에 확인 가능한 내용이다.</li> <li><strong>사용자 변수</strong>는 기본 값과 입력 조건(캘린더, From Date/To Date)에 따라 대체되는 값(sub-value)을 등록 할 수 있다.</li></ul></li> <li>화면 설명(항목)
+<ul><li><code>Name</code> : 변수명</li> <li><code>Type</code> : Date, Number, String</li> <li><code>Attr</code> : Type 에 따른 속성 (Date format 혹은  Number/String 길이)</li> <li><code>Value</code> : 기본 값</li> <li><code>Sub Value</code> : 대체 값</li> <li><code>Calendar</code> : Calendar 이름</li> <li><code>From(MMDD)</code> : 시작 날짜 (입력날짜 포함)</li> <li><code>To(MMDD)</code> : 종료 날짜 (입력날짜 포함)</li></ul></li> <li>화면 설명(입력 값 - 예시)
+<ul><li>DAYSAGO 변수의 값은 30 이다.</li> <li>CSAT_TO 변수의 기본값은 '1530' 이고, 12월 3일에는 '1630' 이 적용된다.</li> <li>IS_HOLI 변수의 기본값은 'No' 이고, <code>Calendar</code> 의 Holiday 에 설정된 날짜에는 'Yes' 가 적용된다.</li> <li>IS_HOLI_1ST_HOY 변수의 기본값은 'No' 이고, 다음 두가지 조건을 만족하면 'Yes' 가 적용된다.
+<br> 1. <code>Calendar</code> 의 Holiday 에 설정된 날짜
+<br> 2. 1월 1일 ~ 6월 30일</li></ul></li> <li>사용 방법
+<ul><li>변수를 Job의 속성에 적용하려면 변수명 앞뒤에 '%' 문자를 추가 한다.</li> <li>ex) pcpcond -ADD A-JOB-OK %ODAT%</li> <li><code>Advanced</code>-&gt;<code>Variable</code> 에서는 변수 이름만 입력한다.</li></ul></li> <li>치환 중 오류 처리
+<ul><li>Job 실행 전 Validation Check 과정에서 오류 발생 시 해당 Job의 상태는 Unknown으로 변경된다.</li> <li>Job 실행 후(PostProc) 오류 발행 시에는 무시된다.(blank로 대체)</li> <li>운영중 <code>Unknown</code>상태의 Job은 작업 담당자의 학인 후 Skip 혹은 Rerun 등의 적절한 조치가 필요하다.</li></ul></li></ul> <p><br><br></p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/pcpdoc/assets/js/app.6ed8750a.js" defer></script><script src="/pcpdoc/assets/js/2.6460c2a9.js" defer></script><script src="/pcpdoc/assets/js/20.ef264b58.js" defer></script>
+  </body>
+</html>
